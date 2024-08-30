@@ -90,8 +90,8 @@ spec:
   ingress:
     metadata:
       annotations:
-        acme.cert-manager.io/http01-ingress-class: "{{ $ingress }}"
-        cert-manager.io/cluster-issuer: letsencrypt-prod
+        external-dns.alpha.kubernetes.io/target: "{{ $host }}"
+        cert-manager.io/cluster-issuer: cloudflare-prod
     spec:
       ingressClassName: "{{ $ingress }}"
       rules:

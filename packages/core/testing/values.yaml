@@ -1,2 +1,2 @@
 e2e:
-  image: ghcr.io/mrkhachaturov/e2e-sandbox:v1.0.0@sha256:6f96306f823bee72d8b340bd26ac8adf7e3e866b141042dd84d1602a286e3942
+  image: ghcr.io/mrkhachaturov/e2e-sandbox:v0.12.0@sha256:50d366c271935092ee16da0d7ff431ccc79a88b0eaf33485e1d1203c6a25183f

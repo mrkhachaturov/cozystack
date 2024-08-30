@@ -1,0 +1,4 @@
+etcd 2.3.0 HEAD
+ingress 1.2.0 HEAD
+monitoring 1.4.0 HEAD
+seaweedfs 0.2.0 HEAD

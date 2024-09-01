@@ -1,2 +1,2 @@
 cozystack:
-  image: ghcr.io/mrkhachaturov/cozystack:v0.13.0@sha256:f20de66321e020431b972f25fccc908aba25206f3fdf5a487df8463195149e6d
+  image: ghcr.io/mrkhachaturov/cozystack:v0.13.0@sha256:4750d0530118c0eb38a01b551fdf7269a999e232854226d3a7dcaf1bdf069a91

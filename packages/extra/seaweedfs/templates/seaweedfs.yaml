@@ -47,7 +47,7 @@ spec:
             nginx.ingress.kubernetes.io/proxy-body-size: "0"
             nginx.ingress.kubernetes.io/backend-protocol: "HTTPS"
             external-dns.alpha.kubernetes.io/target: "{{ $host }}"
-            cert-manager.io/cluster-issuer: letsencrypt-prod
+            cert-manager.io/cluster-issuer: cozystack-prod
           tls:
             - hosts:
               - {{ .Values.host | default (printf "seaweedfs.%s" $host) }}

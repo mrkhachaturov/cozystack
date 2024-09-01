@@ -1,1 +1,1 @@
-ghcr.io/mrkhachaturov/ubuntu-container-disk:v1.30.1@sha256:5ce80a453073c4f44347409133fc7b15f1d2f37a564d189871a4082fc552ff0f
+ghcr.io/mrkhachaturov/ubuntu-container-disk:v1.30.1@sha256:8df110d21bae1fd8b69dbdf1f3ce44abbb86152d2e89093336d5151e0564dc4e

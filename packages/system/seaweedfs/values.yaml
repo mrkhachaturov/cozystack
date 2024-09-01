@@ -82,14 +82,16 @@ seaweedfs:
       # Suffix of the host name, {bucket}.{domainName}
       domainName: ""
       # enable user & permission to s3 (need to inject to all services)
-      enableAuth: false
+      enableAuth: true
       # set to the name of an existing kubernetes Secret with the s3 json config file
       # should have a secret key called seaweedfs_s3_config with an inline json configure
       existingConfigSecret: null
       auditLogConfig: {}
   
   s3:
+    enabled: true
     enableAuth: true
+    
   
     logs:
       type: ""
@@ -101,8 +103,7 @@ seaweedfs:
       annotations:
         nginx.ingress.kubernetes.io/proxy-body-size: "0"
         nginx.ingress.kubernetes.io/backend-protocol: "HTTPS"
-        acme.cert-manager.io/http01-ingress-class: tenant-root
-        cert-manager.io/cluster-issuer: letsencrypt-prod
+        cert-manager.io/cluster-issuer: cozystack-prod
       tls:
         - hosts:
           - seaweedfs.demo.cozystack.io
@@ -110,6 +111,7 @@ seaweedfs:
 
   cosi:
     enabled: true
+    enableAuth: true
     podLabels:
       policy.cozystack.io/allow-to-apiserver: "true"
     driverName: "seaweedfs.objectstorage.k8s.io"

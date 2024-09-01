@@ -3,5 +3,5 @@ kamaji:
     deploy: false
   image:
     pullPolicy: IfNotPresent
-    tag: v0.12.0@sha256:5c1f8d671607d4c73a9fc373f7165cbc3dfd95b1f5871f4350c8b808bf3c5495
+    tag: v0.13.0@sha256:f04bfb44633cdf60dd4c045a880b39673cbc017096779543678d8c511f15033e
     repository: ghcr.io/mrkhachaturov/kamaji

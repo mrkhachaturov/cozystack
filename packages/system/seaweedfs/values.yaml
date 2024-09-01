@@ -82,7 +82,7 @@ seaweedfs:
       # Suffix of the host name, {bucket}.{domainName}
       domainName: ""
       # enable user & permission to s3 (need to inject to all services)
-      enableAuth: true
+      enableAuth: false
       # set to the name of an existing kubernetes Secret with the s3 json config file
       # should have a secret key called seaweedfs_s3_config with an inline json configure
       existingConfigSecret: null
@@ -90,7 +90,6 @@ seaweedfs:
   
   s3:
     enabled: true
-    enableAuth: true
     
   
     logs:
@@ -111,7 +110,6 @@ seaweedfs:
 
   cosi:
     enabled: true
-    enableAuth: true
     podLabels:
       policy.cozystack.io/allow-to-apiserver: "true"
     driverName: "seaweedfs.objectstorage.k8s.io"

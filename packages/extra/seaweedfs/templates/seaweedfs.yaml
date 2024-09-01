@@ -48,6 +48,7 @@ spec:
             nginx.ingress.kubernetes.io/backend-protocol: "HTTPS"
             external-dns.alpha.kubernetes.io/target: "{{ $host }}"
             cert-manager.io/cluster-issuer: cozystack-prod
+            nginx.ingress.kubernetes.io/whitelist-source-range: ""
           tls:
             - hosts:
               - {{ .Values.host | default (printf "seaweedfs.%s" $host) }}

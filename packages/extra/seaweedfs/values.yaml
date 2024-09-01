@@ -9,4 +9,4 @@ host: ""
 ##
 replicas: 2
 size: 10Gi
-storageClass: ""
+storageClass: "s3data"

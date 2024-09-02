@@ -102,7 +102,7 @@ seaweedfs:
       annotations:
         nginx.ingress.kubernetes.io/proxy-body-size: "0"
         nginx.ingress.kubernetes.io/backend-protocol: "HTTPS"
-        cert-manager.io/cluster-issuer: cozystack-prod
+        cert-manager.io/cluster-issuer: cloudflare-prod
       tls:
         - hosts:
           - seaweedfs.demo.cozystack.io

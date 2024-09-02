@@ -40,4 +40,4 @@ kubeapps:
       registry: ghcr.io/mrkhachaturov
       repository: kubeapps-apis
       tag: v0.13.0
-      digest: "sha256:1ff213693727f023aa294cf831f19f6fa570197bce1ffe946f90f458037cf9fa"
+      digest: "sha256:461edb4fc92b6505db613e7c0772786e9a79b922883cba2b053c3529bcc1058c"

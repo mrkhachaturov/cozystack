@@ -47,7 +47,7 @@ spec:
             nginx.ingress.kubernetes.io/proxy-body-size: "0"
             nginx.ingress.kubernetes.io/backend-protocol: "HTTPS"
             external-dns.alpha.kubernetes.io/target: "{{ $host }}"
-            cert-manager.io/cluster-issuer: cozystack-prod
+            cert-manager.io/cluster-issuer: cloudflare-prod
             nginx.ingress.kubernetes.io/whitelist-source-range: "0.0.0.0/0"
           tls:
             - hosts:

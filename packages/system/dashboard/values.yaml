@@ -34,10 +34,10 @@ kubeapps:
       registry: ghcr.io/mrkhachaturov
       repository: dashboard
       tag: v0.15.0
-      digest: "sha256:154cc97c728fe1f3a81644f07121889712ae08304214734eefc4bf06b317583a"
+      digest: "sha256:89589028741ba25cee767caa25bb68c5b85d22966a93ea92f9da8b1e85802dbe"
   kubeappsapis:
     image:
       registry: ghcr.io/mrkhachaturov
       repository: kubeapps-apis
       tag: v0.15.0
-      digest: "sha256:3d5fd80c128c9a09134c65bd71598a35101b77cac425a243488a39e94d8881ca"
+      digest: "sha256:4c061b9121372f1a016953acecf6a311b9e6c4de38cb464d8c11fb131070436f"

@@ -1,1 +1,1 @@
-ghcr.io/mrkhachaturov/clickhouse-backup:0.5.0@sha256:02c26c6da0ed436b32d084c65da99e15e38c86e46b94c7f7a2a468b628980bb0
+ghcr.io/mrkhachaturov/clickhouse-backup:0.5.0@sha256:8f510e414197a6b479520107a8eaf4ca92a1efd4d04dd745e32c3615e86d55f2

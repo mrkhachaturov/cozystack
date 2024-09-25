@@ -1,1 +1,1 @@
-ghcr.io/mrkhachaturov/postgres-backup:0.6.2@sha256:f332c983f7eb0d24f191f3b2fd7475285771ac0c0cf41db8ea1f4b922e521cc5
+ghcr.io/mrkhachaturov/postgres-backup:0.6.2@sha256:f5efa9bca732d2190fbf38abb9c0942541c342a208fe539541a2d95f88dc35d6

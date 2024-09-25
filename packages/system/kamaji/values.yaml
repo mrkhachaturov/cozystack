@@ -3,7 +3,7 @@ kamaji:
     deploy: false
   image:
     pullPolicy: IfNotPresent
-    tag: v0.15.0@sha256:a0cb773b125862907e3598c79c212f39462b92f35f88cbf8a2c23299f9b2682d
+    tag: v0.15.0@sha256:872a3ea55fd45dc62878d54b14dd001dbe5ca202b397b00069778ef6602ea8ba
     repository: ghcr.io/mrkhachaturov/kamaji
   resources:
     limits:

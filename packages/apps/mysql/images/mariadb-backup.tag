@@ -1,1 +1,1 @@
-ghcr.io/mrkhachaturov/mariadb-backup:0.5.1@sha256:9c42737d0614be0f43c381dc1b1472e069f6af2c50c400343a3516b9c1685fc8
+ghcr.io/mrkhachaturov/mariadb-backup:0.5.1@sha256:03c47ac2e8afdfa9845b2a3315ea187b5290472d8f34228e9e8b4bb23f8bf0f0

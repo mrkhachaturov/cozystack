@@ -1,1 +1,1 @@
-ghcr.io/mrkhachaturov/nginx-cache:0.3.1@sha256:e81618a3512d074e160f6734e37d605fc94ff4d21f9d962358d481deb1dc8314
+ghcr.io/mrkhachaturov/nginx-cache:0.3.1@sha256:b6a3ac718ef9302d5f12e8a2bf30693d16a55f37bb8c4b1e5fde7c3b917f8628

@@ -30,9 +30,17 @@ argo-cd:
           end
         end
         return hs  
-      # Must explicitly enable helm to support helmCharts property in kustomization.yaml
+      # Kustomize build options
+      # --enable-helm: Enabling Helm chart rendering with Kustomize 
+      # --load-restrictor LoadRestrictionsNone: Local kustomizations may load files from outside their root
       kustomize.buildOptions: "--load-restrictor LoadRestrictionsNone --enable-helm"
 
+      
+      ## Ignore resources
+      # https://argo-cd.readthedocs.io/en/stable/operator-manual/declarative-setup/#resource-exclusioninclusion
+      # Ignore VolumeSnapshot and VolumeSnapshotContent: Created by backup processes.
+      # Also ingore resources created by Cilium
+      # https://docs.cilium.io/en/stable/configuration/argocd-issues/#argo-cd-deletes-customresourcedefinitions
       # Ignore differences for commonly troublesome webhooks properties
       resource.customizations.ignoreDifferences.admissionregistration.k8s.io_ValidatingWebhookConfiguration:
         |
@@ -48,11 +56,18 @@ argo-cd:
       # Define resource exclusions
       resource.exclusions: |
         - apiGroups:
-            - cilium.io
+          - snapshot.storage.k8s.io
           kinds:
-            - CiliumIdentity
+          - VolumeSnapshot
+          - VolumeSnapshotContent
           clusters:
-            - "*"
+          - "*"
+        - apiGroups:
+          - cilium.io
+          kinds:
+          - CiliumIdentity
+          clusters:
+          - "*"    
           
 
     params:

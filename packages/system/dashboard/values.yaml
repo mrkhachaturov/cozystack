@@ -31,13 +31,13 @@ kubeapps:
         width: 100%;
       }
     image:
-      registry: ghcr.io/aenix-io/cozystack
+      registry: ghcr.io/mrkhachaturov
       repository: dashboard
       tag: v0.15.0
-      digest: "sha256:4818712e9fc9c57cc321512760c3226af564a04e69d4b3ec9229ab91fd39abeb"
+      digest: "sha256:89589028741ba25cee767caa25bb68c5b85d22966a93ea92f9da8b1e85802dbe"
   kubeappsapis:
     image:
-      registry: ghcr.io/aenix-io/cozystack
+      registry: ghcr.io/mrkhachaturov
       repository: kubeapps-apis
       tag: v0.15.0
-      digest: "sha256:70c095c8f7e3ecfa11433a3a2c8f57f6ff5a0053f006939a2c171c180cc50baf"
+      digest: "sha256:4c061b9121372f1a016953acecf6a311b9e6c4de38cb464d8c11fb131070436f"

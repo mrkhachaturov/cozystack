@@ -1,1 +1,1 @@
-ghcr.io/aenix-io/cozystack/nginx-cache:0.3.1@sha256:556bc8d29ee9e90b3d64d0481dcfc66483d055803315bba3d9ece17c0d97f32b
+ghcr.io/mrkhachaturov/nginx-cache:0.3.1@sha256:b6a3ac718ef9302d5f12e8a2bf30693d16a55f37bb8c4b1e5fde7c3b917f8628

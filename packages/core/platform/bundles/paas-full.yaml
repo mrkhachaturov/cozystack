@@ -216,3 +216,27 @@ releases:
   namespace: cozy-cluster-api
   privileged: true
   dependsOn: [cilium,kubeovn,capi-operator]
+
+- name: onepassword-connect
+  releaseName: onepassword-connect
+  chart: cozy-onepassword-connect
+  namespace: cozy-onepassword-connect
+  dependsOn: [cilium,kubeovn,cert-manager]
+
+- name: external-secrets-operator
+  releaseName: external-secrets-operator
+  chart: cozy-external-secrets-operator
+  namespace: cozy-external-secrets-operator
+  dependsOn: [cilium,kubeovn,cert-manager]  
+
+- name: external-dns
+  releaseName: external-dns
+  chart: cozy-external-dns
+  namespace: cozy-external-dns
+  dependsOn: [cilium,kubeovn,cert-manager]  
+
+- name: argo-cd
+  releaseName: argo-cd
+  chart: cozy-argo-cd
+  namespace: cozy-argo-cd
+  dependsOn: [cilium,kubeovn,cert-manager]  

@@ -1,7 +1,7 @@
-<p align="center">
-    <img src=.github/assets/cozystack-logo-black.svg#gh-light-mode-only" alt="Cozystack" />
-    <img src=.github/assets/cozystack-logo-white.svg#gh-dark-mode-only" alt="Cozystack" />
-</p>
+<div align="center">
+  <img src=".github/assets/cozystack-logo-black.svg#gh-light-mode-only" alt="Cozystack" />
+  <img src=".github/assets/cozystack-logo-white.svg#gh-dark-mode-only" alt="Cozystack" />
+</div>
 
 <p align="center">
   <a href="https://opensource.org/"><img src="https://img.shields.io/badge/Open-Source-brightgreen" alt="Open Source"></a>

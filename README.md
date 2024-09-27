@@ -21,7 +21,7 @@
 
 <img align="right" width="340" height="317" src=".github/assets/cozystack_cluster.png">
 
-Enhance your Infrastructure with Cozystack's PaaS Platform and Framework
+Enhance your Infrastructure with Cozystack!
 
 As a free PaaS platform and framework, Cozystack transforms collections of servers into intelligent, streamlined systems. Leveraging a simple REST API, Cozystack simplifies the provisioning of a wide range of services, including:
 

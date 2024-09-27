@@ -1,17 +1,21 @@
-![Cozystack](img/cozystack-logo-black.svg#gh-light-mode-only)
-![Cozystack](img/cozystack-logo-white.svg#gh-dark-mode-only)
+<p align="center">
+    <img src=.github/assets/cozystack-logo-black.svg#gh-light-mode-only" alt="Cozystack" />
+    <img src=.github/assets/cozystack-logo-white.svg#gh-dark-mode-only" alt="Cozystack" />
+</p>
 
-[![Open Source](https://img.shields.io/badge/Open-Source-brightgreen)](https://opensource.org/)
-[![Apache-2.0 License](https://img.shields.io/github/license/aenix-io/cozystack)](https://opensource.org/licenses/)
-[![Support](https://img.shields.io/badge/$-support-12a0df.svg?style=flat)](https://aenix.io/contact-us/#meet)
-[![Active](http://img.shields.io/badge/Status-Active-green.svg)](https://aenix.io/cozystack/)
-[![GitHub Release](https://img.shields.io/github/release/aenix-io/cozystack.svg?style=flat)](https://github.com/aenix-io/cozystack)
-[![GitHub Commit](https://img.shields.io/github/commit-activity/y/aenix-io/cozystack)](https://github.com/aenix-io/cozystack) 
+<p align="center">
+  <a href="https://opensource.org/"><img src="https://img.shields.io/badge/Open-Source-brightgreen" alt="Open Source"></a>
+  <a href="https://opensource.org/licenses/"><img src="https://img.shields.io/github/license/aenix-io/cozystack" alt="Apache-2.0 License"></a>
+  <a href="https://aenix.io/contact-us/#meet"><img src="https://img.shields.io/badge/$-support-12a0df.svg?style=flat" alt="Support"></a>
+  <a href="https://aenix.io/cozystack/"><img src="http://img.shields.io/badge/Status-Active-green.svg" alt="Active"></a>
+  <a href="https://github.com/aenix-io/cozystack"><img src="https://img.shields.io/github/release/aenix-io/cozystack.svg?style=flat" alt="GitHub Release"></a>
+  <a href="https://github.com/aenix-io/cozystack"><img src="https://img.shields.io/github/commit-activity/y/aenix-io/cozystack" alt="GitHub Commit"></a>
+</p>
 
-# Cozystack
 
-**Cozystack** is a free PaaS platform and framework for building clouds.
+[Cozystack](https://cozystack.io/) is a free PaaS platform and framework for building clouds.
 
+# Main features
 With Cozystack, you can transform your bunch of servers into an intelligent system with a simple REST API for spawning Kubernetes clusters, Database-as-a-Service, virtual machines, load balancers, HTTP caching services, and other services with ease.
 
 You can use Cozystack to build your own cloud or to provide a cost-effective development environments.  

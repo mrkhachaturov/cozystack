@@ -21,18 +21,12 @@
 
 <img align="right" width="340" height="317" src=".github/assets/cozystack_cluster.png">
 
-Enhance your Infrastructure with Cozystack!
+With Cozystack, you can transform your bunch of servers into an intelligent system with a simple REST API for spawning Kubernetes clusters, Database-as-a-Service, virtual machines, load balancers, HTTP caching services, and other services with ease.
 
-As a free PaaS platform and framework, Cozystack transforms collections of servers into intelligent, streamlined systems. Leveraging a simple REST API, Cozystack simplifies the provisioning of a wide range of services, including:
+You can use Cozystack to build your own cloud or to provide a cost-effective development environments.
 
- - Kubernetes clusters
- - Database-as-a-Service
- - Virtual machines
- - Load balancers
- - HTTP caching services
- - And more
+ Enhance your Infrastructure with Cozystack!
 
-With Cozystack's PaaS capabilities, you can build fully customized cloud solutions or create cost-effective development environments tailored to specific needs.
 
 
 ## Use-Cases

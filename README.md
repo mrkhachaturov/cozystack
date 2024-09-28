@@ -66,12 +66,12 @@ If you encounter any difficulties, start with the [troubleshooting guide](https:
         <th>Description</th>
     </tr>
     <tr>
-        <td><img width="32" src="https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png"></td>
+        <td><img width="32" src=".github/assets/images/platform/kubernetes.svg"></td>
         <td><a href="https://www.ansible.com">Kubernetes</a></td>
         <td>Kubernetes has already become a kind of de facto standard for managing server workloads.</td>
     </tr>
     <tr>
-        <td><img width="32" src="docs/assets/img/logos/argocd.svg"></td>
+        <td><img width="32" src=".github/assets/images/platform/kubernetes.svg"></td>
         <td><a href="https://argoproj.github.io/cd">Flux CD</a></td>
         <td>We use FluxCD as the core element of our platform, believing it sets a new industry standard for platform engineering.</td>
     </tr>
@@ -101,7 +101,7 @@ If you encounter any difficulties, start with the [troubleshooting guide](https:
         <td>OVN is a free implementation of virtual network fabric for Kubernetes and OpenStack based on Open vSwitch technology.</td>
     </tr>
     <tr>
-        <td><img width="32" src="docs/assets/img/logos/coredns.svg"></td>
+        <td><img width="32" src=".github/assets/images/platform/cilium.svg"></td>
         <td><a href="https://coredns.io/">Cilium</a></td>
         <td>Utilizing Cilium in conjunction with OVN enables the most efficient and flexible network policies, along with a productive services network in Kubernetes, leveraging an offloaded Linux network stack featuring the cutting-edge eBPF technology.</td>
     </tr>

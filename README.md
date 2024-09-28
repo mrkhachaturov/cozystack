@@ -1,6 +1,7 @@
 <div align="center">
   <img src=".github/assets/images/cozystack/cozystack-logo-black.svg#gh-light-mode-only" alt="Cozystack" />
   <img src=".github/assets/images/cozystack/cozystack-logo-white.svg#gh-dark-mode-only" alt="Cozystack" />
+  
 </div>
 
 <p align="center">
@@ -25,9 +26,9 @@ With Cozystack, you can transform your bunch of servers into an intelligent syst
 
 You can use Cozystack to build your own cloud or to provide a cost-effective development environments.
 
- Enhance your Infrastructure with Cozystack!
+Cozystack harnesses cutting-edge open-source technologies to redefine how you build and manage clouds.
 
-
+Enhance your Infrastructure with Cozystack!
 
 ## Use-Cases
 

@@ -71,47 +71,47 @@ If you encounter any difficulties, start with the [troubleshooting guide](https:
         <td>Kubernetes has already become a kind of de facto standard for managing server workloads.</td>
     </tr>
     <tr>
-        <td><img width="32" src=".github/assets/images/platform/kubernetes.svg"></td>
+        <td><img width="32" src=".github/assets/images/platform/fluxcd.svg" alt="fluxcd logo"></td>
         <td><a href="https://argoproj.github.io/cd">Flux CD</a></td>
         <td>We use FluxCD as the core element of our platform, believing it sets a new industry standard for platform engineering.</td>
     </tr>
     <tr>
-        <td><img width="32" src="docs/assets/img/logos/cloud-init.svg"></td>
+        <td><img width="32" src=".github/assets/images/platform/talos.svg" alt="talos linux logo"></td>
         <td><a href="https://cloudinit.readthedocs.io/en/latest/">Talos Linux</a></td>
         <td>Using Talos Linux as the base layer for the platform allows to strictly limit the technology stack and make the system stable as a rock.</td>
     </tr>
     <tr>
-        <td><img width="32" src="docs/assets/img/logos/ubuntu.svg"></td>
+        <td><img width="32" src=".github/assets/images/platform/kubevirt_logo.png" alt="kubeovn logo"></td>
         <td><a href="https://ubuntu.com/">KubeVirt</a></td>
         <td>KubeVirt extends the capabilities of Kubernetes by providing convenient abstractions for launching and managing virtual machines, as well the all related entities such as snapshots, presets, virtual volumes, and more.</td>
     </tr>
     <tr>
-        <td><img width="32" src="docs/assets/img/logos/k3s.svg"></td>
+        <td><img width="32" src=".github/assets/images/platform/kamaji.png" alt="kamaji logo"></td>
         <td><a href="https://k3s.io/">Kamaji</a></td>
         <td>We use Kamaji to deploy user Kubernetes clusters. Kamaji provides a straightforward and convenient method for launching all the necessary Kubernetes control-plane in containers</td>
     </tr>
     <tr>
-        <td><img width="32" src="docs/assets/img/logos/containerd.svg"></td>
+        <td><img width="37" src=".github/assets/images/platform/drbd.svg" alt="drbd logo"></td>
         <td><a href="https://containerd.io/">DRBD</a></td>
         <td>DRBD is the fastest replication block storage running right in the Linux kernel. When DRBD only deals with data replication, time-tested technologies such as LVM or ZFS are used for securely store the data.</td>
     </tr>
     <tr>
-        <td><img width="32" src="docs/assets/img/logos/cilium.svg" alt="cilium logo"></td>
+        <td><img width="37" src=".github/assets/images/platform/kube-ovn.svg" alt="drbd logo"></td>
         <td><a href="https://cilium.io">OVN</a></td>
         <td>OVN is a free implementation of virtual network fabric for Kubernetes and OpenStack based on Open vSwitch technology.</td>
     </tr>
     <tr>
-        <td><img width="60" src=".github/assets/images/platform/cilium.svg" alt="cilium logo"></td>
+        <td><img width="50" src=".github/assets/images/platform/cilium.svg" alt="cilium logo"></td>
         <td><a href="https://coredns.io/">Cilium</a></td>
         <td>Utilizing Cilium in conjunction with OVN enables the most efficient and flexible network policies, along with a productive services network in Kubernetes, leveraging an offloaded Linux network stack featuring the cutting-edge eBPF technology.</td>
     </tr>
     <tr>
-        <td><img width="32" src=".github/assets/images/platform/grafana.svg" alt="grafana logo"></td>
+        <td><img width="33" src=".github/assets/images/platform/grafana.svg" alt="grafana logo"></td>
         <td><a href="https://www.haproxy.org/">Grafana</a></td>
         <td>Grafana with Grafana Loki and the OnCall extension provides a single interface to Observability.</td>
     </tr>
     <tr>
-        <td><img width="32" src="docs/assets/img/logos/metallb.svg"></td>
+        <td><img width="30" src=".github/assets/images/platform/vm.svg" alt="victoriametrics logo"></td>
         <td><a href="https://metallb.universe.tf/">Victoria Metrics</a></td>
         <td>Victoria Metrics allows you to most efficiently collect, store and process metrics in the Open Metrics format, doing it more efficiently than Prometheus in the same setup.</td>
     </tr>
@@ -126,17 +126,17 @@ If you encounter any difficulties, start with the [troubleshooting guide](https:
         <td>HAProxy is an advanced and widely known TCP balancer. It continuously checks the availability of services and carefully balance production traffic between them in real time.</td>
     </tr>
     <tr>
-        <td><img width="60" src="docs/assets/img/logos/minio.svg"></td>
+        <td><img width="34" src=".github/assets/images/platform/seaweedfs.png" alt="seaweedfs logo"></td>
         <td><a href="https://min.io/">SeaweedFS</a></td>
         <td>SeaweedFS is a simple and highly scalable distributed file system designed for two main objectives: to store billions of files and to serve the files faster. It allows access O(1), usually just one disk read operation.</td>
     </tr>
     <tr>
-        <td><img width="32" src=".github/assets/images/platform/cert-manager.svg" alt="cert-manager logo"></td>
+        <td><img width="34" src=".github/assets/images/platform/cert-manager.svg" alt="cert-manager logo"></td>
         <td><a href="https://cert-manager.io">Cert-manager</a></td>
         <td>TLS Certificates management</td>
     </tr>
     <tr>
-        <td><img width="32" src=".github/assets/images/platform/external-secrets.svg" alt="external-secrets logo"></td>
+        <td><img width="38" src=".github/assets/images/platform/external-secrets.svg" alt="external-secrets logo"></td>
         <td><a href="https://external-secrets.io/">External Secrets Operator</a></td>
         <td>External Secrets Operator is a Kubernetes operator that integrates external secret management systems like AWS Secrets Manager, HashiCorp Vault, Google Secrets Manager, Azure Key Vault, IBM Cloud Secrets Manager, Akeyless, CyberArk Conjur, Pulumi ESC and many more.</td>
     </tr>

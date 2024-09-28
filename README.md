@@ -126,7 +126,7 @@ If you encounter any difficulties, start with the [troubleshooting guide](https:
         <td>HAProxy is an advanced and widely known TCP balancer. It continuously checks the availability of services and carefully balance production traffic between them in real time.</td>
     </tr>
     <tr>
-        <td><img width="34" src=".github/assets/images/platform/seaweedfs.png" alt="seaweedfs logo"></td>
+        <td><img width="" src=".github/assets/images/platform/seaweedfs.png" alt="cert-manager logo"></td>
         <td><a href="https://min.io/">SeaweedFS</a></td>
         <td>SeaweedFS is a simple and highly scalable distributed file system designed for two main objectives: to store billions of files and to serve the files faster. It allows access O(1), usually just one disk read operation.</td>
     </tr>

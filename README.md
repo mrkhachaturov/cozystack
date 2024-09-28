@@ -96,17 +96,17 @@ If you encounter any difficulties, start with the [troubleshooting guide](https:
         <td>DRBD is the fastest replication block storage running right in the Linux kernel. When DRBD only deals with data replication, time-tested technologies such as LVM or ZFS are used for securely store the data.</td>
     </tr>
     <tr>
-        <td><img width="60" src="docs/assets/img/logos/cilium.svg" alt="cilium logo"></td>
+        <td><img width="32" src="docs/assets/img/logos/cilium.svg" alt="cilium logo"></td>
         <td><a href="https://cilium.io">OVN</a></td>
         <td>OVN is a free implementation of virtual network fabric for Kubernetes and OpenStack based on Open vSwitch technology.</td>
     </tr>
     <tr>
-        <td><img width="32" src=".github/assets/images/platform/cilium.svg"></td>
+        <td><img width="60" src=".github/assets/images/platform/cilium.svg" alt="cilium logo"></td>
         <td><a href="https://coredns.io/">Cilium</a></td>
         <td>Utilizing Cilium in conjunction with OVN enables the most efficient and flexible network policies, along with a productive services network in Kubernetes, leveraging an offloaded Linux network stack featuring the cutting-edge eBPF technology.</td>
     </tr>
     <tr>
-        <td><img width="32" src="docs/assets/img/logos/haproxy.svg"></td>
+        <td><img width="32" src=".github/assets/images/platform/grafana.svg" alt="grafana logo"></td>
         <td><a href="https://www.haproxy.org/">Grafana</a></td>
         <td>Grafana with Grafana Loki and the OnCall extension provides a single interface to Observability.</td>
     </tr>
@@ -116,12 +116,12 @@ If you encounter any difficulties, start with the [troubleshooting guide](https:
         <td>Victoria Metrics allows you to most efficiently collect, store and process metrics in the Open Metrics format, doing it more efficiently than Prometheus in the same setup.</td>
     </tr>
     <tr>
-        <td><img width="32" src="docs/assets/img/logos/nginx.svg"></td>
+        <td><img width="32" src=".github/assets/images/platform/metallb.svg" alt="metallb logo"></td>
         <td><a href="https://kubernetes.github.io/ingress-nginx/">MetalLB</a></td>
         <td>MetalLB is the default load balancer for Kubernetes; with its help, your services can obtain public addresses that are accessible not only from inside, but also from outside your cluster network.</td>
     </tr> 
     <tr>
-        <td><img width="32" src="/assets/img/logos/istio-icon-color.svg" alt="istio logo"></td>
+        <td><img width="32" src=".github/assets/images/platform/haproxy.svg" alt="haproxy logo"></td>
         <td><a href="https://istio.io/">Haproxy</a></td>
         <td>HAProxy is an advanced and widely known TCP balancer. It continuously checks the availability of services and carefully balance production traffic between them in real time.</td>
     </tr>
@@ -131,12 +131,12 @@ If you encounter any difficulties, start with the [troubleshooting guide](https:
         <td>SeaweedFS is a simple and highly scalable distributed file system designed for two main objectives: to store billions of files and to serve the files faster. It allows access O(1), usually just one disk read operation.</td>
     </tr>
     <tr>
-        <td><img width="32" src="docs/assets/img/logos/cert-manager.svg"></td>
+        <td><img width="32" src=".github/assets/images/platform/cert-manager.svg" alt="cert-manager logo"></td>
         <td><a href="https://cert-manager.io">Cert-manager</a></td>
         <td>TLS Certificates management</td>
     </tr>
     <tr>
-        <td><img width="32" src="docs/assets/img/logos/external-secrets.svg"></td>
+        <td><img width="32" src=".github/assets/images/platform/external-secrets.svg" alt="external-secrets logo"></td>
         <td><a href="https://external-secrets.io/">External Secrets Operator</a></td>
         <td>External Secrets Operator is a Kubernetes operator that integrates external secret management systems like AWS Secrets Manager, HashiCorp Vault, Google Secrets Manager, Azure Key Vault, IBM Cloud Secrets Manager, Akeyless, CyberArk Conjur, Pulumi ESC and many more.</td>
     </tr>

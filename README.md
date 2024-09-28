@@ -153,57 +153,57 @@ If you encounter any difficulties, start with the [troubleshooting guide](https:
         <th>Description</th>
     </tr>
     <tr>
-        <td><img width="32" src=".github/assets/images/platform/external-secrets" alt="external-secrets logo"></td>
+        <td><img width="32" src=".github/assets/images/platform/external-secrets" alt="cnpg logo"></td>
         <td><a href="https://aa/">Managed PostgreSQL</a></td>
         <td>Nowadays PostgreSQL is the most popular relational database. Its platform-side implementation involves a self-healing replicated cluster, managed with the increasingly popular CloudNativePG operator within the community.</td>
     </tr>
     <tr>
-        <td><img width="32" src=".github/assets/images/platform/external-secrets" alt="external-secrets logo"></td>
+        <td><img width="32" src=".github/assets/images/platform/external-secrets" alt="mariadb logo"></td>
         <td><a href="https://aa/">Managed MySQL</a></td>
         <td>MySQL is an equally well-known and also widely used relational database. The implementation in the platform provides the ability to create a replicated MariaDB cluster, which is managed using the increasingly popular mariadb-operator.</td>
     </tr>
     <tr>
-        <td><img width="32" src=".github/assets/images/platform/external-secrets" alt="external-secrets logo"></td>
+        <td><img width="32" src=".github/assets/images/platform/external-secrets" alt="redis logo"></td>
         <td><a href="https://aa/">Managed Redis</a></td>
         <td>Redis is the most commonly used key-value in-memory data store. It is most often used as a cache, as storage for user sessions, or as a message broker.</td>
     </tr>
     <tr>
-        <td><img width="32" src=".github/assets/images/platform/external-secrets" alt="external-secrets logo"></td>
+        <td><img width="32" src=".github/assets/images/platform/external-secrets" alt="ferretdb logo"></td>
         <td><a href="https://aa/">Managed FerretDB</a></td>
         <td>FerretDB is an open source MongoDB alternative, that translates MongoDB wire protocol queries to SQL and can be used as a direct replacement for MongoDB 5.0+.</td>
     </tr>
     <tr>
-        <td><img width="32" src=".github/assets/images/platform/external-secrets" alt="external-secrets logo"></td>
+        <td><img width="32" src=".github/assets/images/platform/external-secrets" alt="clickhouse logo"></td>
         <td><a href="https://aa/">Managed Clickhouse</a></td>
         <td>ClickHouse is an open source high-performance and column-oriented SQL database management system (DBMS).</td>
     </tr>
     <tr>
-        <td><img width="32" src=".github/assets/images/platform/external-secrets" alt="external-secrets logo"></td>
+        <td><img width="32" src=".github/assets/images/platform/external-secrets" alt="rabbitmq logo"></td>
         <td><a href="https://aa/">Managed RabbitMQ</a></td>
         <td>Widely known message broker. Platform-side implementation allows you to create failover clusters managed by the official RabbitMQ operator.</td>
     </tr>
     <tr>
-        <td><img width="32" src=".github/assets/images/platform/external-secrets" alt="external-secrets logo"></td>
+        <td><img width="32" src=".github/assets/images/platform/external-secrets" alt="kafka logo"></td>
         <td><a href="https://aa/">Managed Kafka</a></td>
         <td>Apache Kafka is an open-source distributed event streaming platform that aims to provide a unified, high-throughput, low-latency platform for handling real-time data feeds.</td>
     </tr>
     <tr>
-        <td><img width="32" src=".github/assets/images/platform/external-secrets" alt="external-secrets logo"></td>
+        <td><img width="32" src=".github/assets/images/platform/external-secrets" alt="httpcache logo"></td>
         <td><a href="https://aa/">Managed HTTP Cache</a></td>
         <td>Nginx-based HTTP caching service - with its help you can always protect your application from overload using the powerful Nginx, which is traditionally used to build CDNs and caching servers.</td>
     </tr>
     <tr>
-        <td><img width="32" src=".github/assets/images/platform/external-secrets" alt="external-secrets logo"></td>
+        <td><img width="32" src=".github/assets/images/platform/external-secrets" alt="nat logo"></td>
         <td><a href="https://aa/">Managed NATS Messaging</a></td>
         <td>NATS is an open-source, simple, secure and high performance messaging system. It provides data layer for cloud native applications, IoT messaging, and microservices architectures.</td>
     </tr>
     <tr>
-        <td><img width="32" src=".github/assets/images/platform/external-secrets" alt="external-secrets logo"></td>
+        <td><img width="32" src=".github/assets/images/platform/kubernetes.svg" alt="kubernetes logo"></td>
         <td><a href="https://aa/">Managed Kubernetes</a></td>
         <td>Managed Kubernetes is a service that allows you to create full-featured Kubernetes clusters on demand, right out of the box, with just the click of a button. For each cluster, a separate managed control-plane and virtual compute nodes are created.</td>
     </tr>
     <tr>
-        <td><img width="32" src=".github/assets/images/platform/external-secrets" alt="external-secrets logo"></td>
+        <td><img width="32" src=".github/assets/images/platform/external-secrets" alt="vpn logo"></td>
         <td><a href="https://aa/">Managed VPN Service</a></td>
         <td>The VPN Service is powered by the Outline Server, an advanced and user-friendly VPN solution. Internally known as “Shadowbox”, which simplifies the process of setting up and sharing Shadowsocks servers.</td>
     </tr>
